@@ -1,0 +1,39 @@
+* {
+    margin: auto;
+}
+.container {
+    width: 641px;
+
+}
+.header {
+    display: flex;  
+    width: 100%;
+    height: 115px;
+    background-color: #000000;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+strong{
+    color: rgb(0, 0, 0);
+}
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+}
+.container1 {
+    width: 341px;
+    float:left;width;
+    
+}
+.container2 {
+    float:left;width;
+    width: 341px;
+}
+.container3 {
+    float:left;width;
+    width: 20px;
+}
+.h2 {
+    font-size: 20px;
+}

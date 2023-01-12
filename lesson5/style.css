@@ -1,0 +1,38 @@
+.tor {
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(0, 255, 38);
+    position: absolute;
+
+  }
+  .tory {
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(0, 255, 38);
+    position: absolute;
+    top: 80px;
+  }
+  .tore {
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(0, 255, 38);
+    position: absolute;
+    top: 160px;
+  }
+  .pix {
+    width: 30px;
+   height: 30px;
+    border-bottom: 50px solid rgb(97, 43, 6);
+    position: absolute;
+    top: 225px;
+    left: 33px;
+  }
+  .tree {
+    position: relative;
+  }

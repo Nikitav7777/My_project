@@ -1,0 +1,34 @@
+body{
+    background-color: rgba(119, 226, 164, 0.582);
+}
+h2{
+    color: rgb(57, 64, 88);
+}
+li{
+    font-size: 20px;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+hr{
+    color: rgb(57, 64, 88);
+}
+h3{
+    color: rgb(131, 131, 131);
+}
+h3{
+    font-size: 18px;
+}
+a{
+    font-size: 26px;
+}
+strong{
+    color: rgb(0, 0, 0);
+}
+ol{
+    color: rgb(131, 131, 131);
+}
+a{
+    color: rgb(57, 64, 88);
+}
