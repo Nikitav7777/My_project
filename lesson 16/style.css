@@ -1,0 +1,52 @@
+.pro{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(7, 140, 16);
+    background-color: rgb(44, 139, 4);
+    width: 100px;
+}
+.display{
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    width: 500px;
+}
+.left{
+    border: 2px solid rgb(0, 0, 0);
+    background-color:  rgb(179, 79, 79);
+    padding: 10px;
+    width: 100px;
+    align-items: flex-end;
+}
+.Right{
+    border: 2px solid rgb(0, 0, 0);
+    background-color:  rgb(179, 79, 79);
+    padding: 10px;
+    width: 100px;
+}
+.up{
+    border: 2px solid rgb(0, 0, 0);
+    background-color:  rgb(179, 79, 79);
+    padding: 10px;
+    width: 100px;
+}
+.down{
+    border: 2px solid rgb(0, 0, 0);
+    background-color:  rgb(179, 79, 79);
+    padding: 10px;
+    width: 100px;
+}
+.ds{
+    position: absolute;
+    height: 70px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    width: 70px;
+}

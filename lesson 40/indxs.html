@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Contact Form</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('qEsLSB6Vsv9W8Kvsc');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_9oj93p8', 'template_ex54x6y', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="left-part">
+            <h1>Home</h1>
+            <div class="isons">
+                <div class="icon"> <a href="#">f</a></div>
+                <div class="icon"> <a href="#">T</a></div>
+                <div class="icon"> <a href="#">D</a></div>
+            </div>
+            <h3>Or use our contact from below</h3>
+            <form action="">
+                <label for="email">Email</label>
+                <input class="input" type="text" name="email" placeholder="email">
+                <select name="age" id="">
+                    <option value="a1">10</option>
+                    <option value="a2">20</option>
+                </select>
+            </form>
+            <form action="">
+                <label for="email">Phone</label>
+                <input class="input" type="text" name="Phone" placeholder="Phone">
+                
+            </form>
+            <h3>type your message here:</h3>
+            <input type="text" name="massage" id="massage">
+            <h3>Need aDDitional help?:</h3>
+            <div class="btn" onclick="Contact()">Contact me</div>
+        </div>
+        <div class="right-part">
+            <h1>Home2</h1>
+        </div>
+    </div>
+</body>
+</html>
