@@ -1,0 +1,46 @@
+li {
+    width: 50px;
+    line-height: 30;
+}
+li {
+    background-color: #00c8ff;
+    height: 45px;
+    width: 45px;
+}
+nav ul li {
+    line-height: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+a:hover {
+    color: red;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+
+    left: -50px;
+    top: 30px;
+}
+
+nav ul li:hover> ul {
+    display: block;
+}
+nav ul ul li{
+    position: relative;
+}
+nav ul ul ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.shablon {
+        background-color: #ff0000;
+        height: 200px;
+        width: 200px;
+
+
+    
+}
